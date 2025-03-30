@@ -117,6 +117,16 @@ form label {
     text-align: center;
 }
 
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between items */
+}
+
+
+
+
+
 form input, form textarea {
     width: 100%;
     padding: 8px;
