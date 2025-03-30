@@ -65,14 +65,50 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
             
-                <label for="email">Email:</label>
+                <div id="gender">
+                    <label>Gender:</label>
+                    <div class="gender-options">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                
+                        <label for="other">Other</label>
+                        <input type="radio" id="other" name="gender" value="other" checked>
+                    </div>
+                </div>
+
+                <label for="email">Email: <span style="color: red">*</span></label>
                 <input type="email" id="email" name="email" required>
             
+                <section id="find">
+                    <label>How did you find us?</label><br>
+                    <section id="findoptions">
+                        <label for="social_media">Social Media</label>
+                        <input type="checkbox" id="social_media" name="how_find_us" value="Social Media">
+                        <label for="friend">Friend Referral</label>  
+                        <input type="checkbox" id="friend" name="how_find_us" value="Friend Referral">
+                        <label for="google">Google Search</label>         
+                        <input type="checkbox" id="google" name="how_find_us" value="Google Search">
+                        <label for="other">Other</label>
+                        <input type="checkbox" id="other" name="how_find_us" value="Other">
+                        
+                    </section>
+            </section>
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea cols= "40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters"></textarea>
             
                 <button type="submit">Submit</button>
         </form>
+
+        <section id="maps">
+            <h3>Pullup for a chat</h3>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77980.55870965314!2d-8.770970062872069!3d52.354235694624535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844b36cdc074713%3A0xa00c7a997319c90!2sCharleville%2C%20Co.%20Cork!5e0!3m2!1sen!2sie!4v1743368520333!5m2!1sen!2sie" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    </section>
         </section>
     <footer>
         <p>&copy; 2025 Black Hair Business | All Rights Reserved</p>
