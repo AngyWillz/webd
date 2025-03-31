@@ -170,3 +170,36 @@ footer {
     border: 2px solid goldenrod;
     border-radius: 2ex;/* turns it round instead of square*/
 }
+#insta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align:center;
+}
+.insta-link {
+    font-size: 80px;
+    color: goldenrod; /* Insta color */
+    text-decoration: none;
+}
+
+.insta-link:hover {
+    color: grey; /* Darker shade on hover */
+}
+
+video{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    min-height: 450px ;
+    max-width: 450px ;
+    overflow: auto;
+}
+#history{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flexVideo{
+    max-width: 300px;
+    flex-shrink: 0;
+}
